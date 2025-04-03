@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  npm_container:
+    build: ./
+    volumes:
+      - ${PWD}:/app
+    
